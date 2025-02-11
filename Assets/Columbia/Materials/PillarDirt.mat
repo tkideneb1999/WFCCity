@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-2426097098516830655
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PillarDirt
+  m_Shader: {fileID: -6465566751694194690, guid: f8d4f5680b18aea4ca12e8c4569cbb14, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _SampleTexture2D_089d45af664f4c848d492f6c7c70262e_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 6abac50ae64a4c440bb4abdbf1bb106d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_14b7e54303ed41eba264b001d0563b59_Texture_1:
+        m_Texture: {fileID: 2800000, guid: f4d13d0b0d0427141afff811aa0551d9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_24e1c67aeb0545dfb942867bd13c9533_Texture_1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_2efb769c790e425cba5e3803e16a45fa_Texture_1:
+        m_Texture: {fileID: 2800000, guid: f4d13d0b0d0427141afff811aa0551d9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_7fc00e6653a3411f87d0572229e9fb05_Texture_1:
+        m_Texture: {fileID: 2800000, guid: b3d81f0a506d86e4fa72e8a475da4561, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_badf0d74bcfa41c29756b1d31bf1b7a5_Texture_1:
+        m_Texture: {fileID: 2800000, guid: b3d81f0a506d86e4fa72e8a475da4561, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_fd4b45d11c4b43f3a5087510ffbb4eed_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 8add34c0b7fe6ff49b2678faa48d426b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _DecalMeshBiasType: 0
+    - _DecalMeshDepthBias: 0
+    - _DecalMeshViewBias: 0
+    - _DirtHeightOffsetScale: 0.25
+    - _DirtHeightOffsetStrength: 1
+    - _DrawOrder: 0
+    - _EndHeight: 0.26
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _Start_Height: -2.61
+    - _Tiling: 0.5
+    - _UVScale: 0.48
+    m_Colors:
+    - _Color: {r: 0.67800003, g: 0.6139667, b: 0.5574667, a: 0}
+  m_BuildTextureStacks: []

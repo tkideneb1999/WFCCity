@@ -1,0 +1,1145 @@
+{
+    "socketList": [
+        "Socket_Bench_1",
+        "HouseBorder_2",
+        "HouseBorder_1",
+        "HouseBorder_2_F",
+        "SunSail_1",
+        "Sunsail_2",
+        "Socket_WoodWall_Mid",
+        "Door_Mid",
+        "Window",
+        "Door_Ground",
+        "Sunsail_2_F",
+        "Socket_Railing",
+        "Socket_WoodWall_Ground",
+        "Socket_Table_1"
+    ],
+    "socketCompat": [
+        {
+            "basePrototype": "River_Corner_Long_ccv",
+            "sockets": [
+                {
+                    "name": "River_Corner_Long_ccv_Socket_1",
+                    "socketMeshes": [
+                        "Socket_Bench_1"
+                    ]
+                },
+                {
+                    "name": "River_Corner_Long_ccv_Socket_2",
+                    "socketMeshes": [
+                        "Socket_Bench_1"
+                    ]
+                }
+            ]
+        },
+        {
+            "basePrototype": "River_Side",
+            "sockets": [
+                {
+                    "name": "River_Side_S_1",
+                    "socketMeshes": [
+                        "Socket_Bench_1"
+                    ]
+                }
+            ]
+        },
+        {
+            "basePrototype": "River_Corner_1_ccv",
+            "sockets": []
+        },
+        {
+            "basePrototype": "River_Corner_1_cvx",
+            "sockets": []
+        },
+        {
+            "basePrototype": "River_Side_Bridge",
+            "sockets": []
+        },
+        {
+            "basePrototype": "River_Side_Bridge_Thick",
+            "sockets": []
+        },
+        {
+            "basePrototype": "River_Corner_2_cvx",
+            "sockets": []
+        },
+        {
+            "basePrototype": "River_Corner_Long_1_cvx",
+            "sockets": []
+        },
+        {
+            "basePrototype": "River_Corner_Long_2_cvx",
+            "sockets": [
+                {
+                    "name": "River_Corner_Long_2_cvx_S_1",
+                    "socketMeshes": [
+                        "Socket_Bench_1"
+                    ]
+                }
+            ]
+        },
+        {
+            "basePrototype": "River_Corner_2_ccv",
+            "sockets": []
+        },
+        {
+            "basePrototype": "River_Corner_Long_Middle_2",
+            "sockets": []
+        },
+        {
+            "basePrototype": "River_Corner_Long_Middle_1",
+            "sockets": []
+        },
+        {
+            "basePrototype": "River_Side_Bridge_Thick_F",
+            "sockets": []
+        },
+        {
+            "basePrototype": "River_Corner_Long_2_F_cvx",
+            "sockets": [
+                {
+                    "name": "River_Corner_Long_2_F_cvx_S_1",
+                    "socketMeshes": [
+                        "Socket_Bench_1"
+                    ]
+                }
+            ]
+        },
+        {
+            "basePrototype": "River_Corner_Long_1_F_cvx",
+            "sockets": []
+        },
+        {
+            "basePrototype": "River_Corner_Long_F_ccv",
+            "sockets": [
+                {
+                    "name": "River_Corner_Long_ccv_Socket_1.001",
+                    "socketMeshes": [
+                        "Socket_Bench_1"
+                    ]
+                },
+                {
+                    "name": "River_Corner_Long_ccv_Socket_2.001",
+                    "socketMeshes": [
+                        "Socket_Bench_1"
+                    ]
+                }
+            ]
+        },
+        {
+            "basePrototype": "House_Base_Straight_Front",
+            "sockets": [
+                {
+                    "name": "House_Base_Straight_Front_S_B_1",
+                    "socketMeshes": [
+                        "Socket_WoodWall_Ground"
+                    ]
+                },
+                {
+                    "name": "House_Base_Straight_Front_S_B_2",
+                    "socketMeshes": [
+                        "Socket_WoodWall_Ground"
+                    ]
+                },
+                {
+                    "name": "House_Base_Straight_Front_S_B_3",
+                    "socketMeshes": [
+                        "Door_Ground",
+                        "Window"
+                    ]
+                },
+                {
+                    "name": "House_Base_Straight_Front_S_B_4",
+                    "socketMeshes": [
+                        "Door_Ground",
+                        "Window"
+                    ]
+                }
+            ]
+        },
+        {
+            "basePrototype": "House_Mid_Side_1_cvx",
+            "sockets": [
+                {
+                    "name": "House_Mid_Side_1_cvx_S_1",
+                    "socketMeshes": [
+                        "Socket_Railing",
+                        "Socket_WoodWall_Mid"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Side_1_cvx_S_2",
+                    "socketMeshes": [
+                        "Socket_Railing",
+                        "Socket_WoodWall_Mid"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Side_1_cvx_S_3",
+                    "socketMeshes": [
+                        "Door_Mid",
+                        "Window"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Side_1_cvx_S_4",
+                    "socketMeshes": [
+                        "Door_Mid",
+                        "Window"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Side_1_cvx_S_Border_1",
+                    "socketMeshes": [
+                        "HouseBorder_1"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Side_1_cvx_S_Border_2",
+                    "socketMeshes": [
+                        "HouseBorder_1"
+                    ]
+                }
+            ]
+        },
+        {
+            "basePrototype": "House_Top_Side_cvx",
+            "sockets": []
+        },
+        {
+            "basePrototype": "House_Top_Straight_Front",
+            "sockets": []
+        },
+        {
+            "basePrototype": "House_Mid_Straight_FB",
+            "sockets": [
+                {
+                    "name": "House_Mid_Straight_FB_S_B_1",
+                    "socketMeshes": [
+                        "Socket_Railing",
+                        "Socket_WoodWall_Mid"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Straight_FB_S_B_2",
+                    "socketMeshes": [
+                        "Socket_Railing",
+                        "Socket_WoodWall_Mid"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Straight_FB_S_B_3",
+                    "socketMeshes": [
+                        "Door_Mid",
+                        "Window"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Straight_FB_S_B_3.001",
+                    "socketMeshes": [
+                        "SunSail_1"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Straight_FB_S_B_4",
+                    "socketMeshes": [
+                        "Door_Mid",
+                        "Window"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Straight_FB_S_B_4.001",
+                    "socketMeshes": [
+                        "SunSail_1"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Straight_FB_S_Border_1",
+                    "socketMeshes": [
+                        "HouseBorder_1"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Straight_FB_S_Border_2",
+                    "socketMeshes": [
+                        "HouseBorder_1"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Straight_FB_S_Border_3",
+                    "socketMeshes": [
+                        "HouseBorder_2"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Straight_FB_S_Border_4",
+                    "socketMeshes": [
+                        "HouseBorder_2_F"
+                    ]
+                }
+            ]
+        },
+        {
+            "basePrototype": "House_Mid_Straight_Back",
+            "sockets": [
+                {
+                    "name": "House_Mid_Straight_Back_S_B_1",
+                    "socketMeshes": [
+                        "Socket_Railing",
+                        "Socket_WoodWall_Mid"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Straight_Back_S_B_2",
+                    "socketMeshes": [
+                        "Socket_Railing",
+                        "Socket_WoodWall_Mid"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Straight_Back_S_B_3",
+                    "socketMeshes": [
+                        "Door_Mid",
+                        "Window"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Straight_Back_S_B_4",
+                    "socketMeshes": [
+                        "Door_Mid",
+                        "Window"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Straight_Back_S_Border_1",
+                    "socketMeshes": [
+                        "HouseBorder_1"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Straight_Back_S_Border_2",
+                    "socketMeshes": [
+                        "HouseBorder_1"
+                    ]
+                }
+            ]
+        },
+        {
+            "basePrototype": "House_Base_Straight_FB_Connector_2",
+            "sockets": []
+        },
+        {
+            "basePrototype": "House_Base_Straight_Back",
+            "sockets": [
+                {
+                    "name": "House_Base_Straight_Back_S_B_1",
+                    "socketMeshes": [
+                        "Socket_WoodWall_Ground"
+                    ]
+                },
+                {
+                    "name": "House_Base_Straight_Back_S_B_2",
+                    "socketMeshes": [
+                        "Socket_WoodWall_Ground"
+                    ]
+                },
+                {
+                    "name": "House_Base_Straight_Back_S_B_3",
+                    "socketMeshes": [
+                        "Door_Ground",
+                        "Window"
+                    ]
+                },
+                {
+                    "name": "House_Base_Straight_Back_S_B_4",
+                    "socketMeshes": [
+                        "Door_Ground",
+                        "Window"
+                    ]
+                }
+            ]
+        },
+        {
+            "basePrototype": "House_Mid_Straight_FB_Connector_2",
+            "sockets": [
+                {
+                    "name": "House_Mid_Straight_FB_Connector_2_S_Border_1",
+                    "socketMeshes": [
+                        "HouseBorder_1"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Straight_FB_Connector_2_S_Border_2",
+                    "socketMeshes": [
+                        "HouseBorder_1"
+                    ]
+                }
+            ]
+        },
+        {
+            "basePrototype": "House_Top_Straight_Back",
+            "sockets": []
+        },
+        {
+            "basePrototype": "House_Top_Straight_FB_1_F",
+            "sockets": []
+        },
+        {
+            "basePrototype": "House_Base_Side_ccv",
+            "sockets": [
+                {
+                    "name": "House_Base_Side_ccv_S_1",
+                    "socketMeshes": [
+                        "Door_Ground",
+                        "Window"
+                    ]
+                },
+                {
+                    "name": "House_Base_Side_ccv_S_2",
+                    "socketMeshes": [
+                        "Door_Ground",
+                        "Window"
+                    ]
+                }
+            ]
+        },
+        {
+            "basePrototype": "House_Base_Side_Back_cvx",
+            "sockets": [
+                {
+                    "name": "House_Base_Side_Back_cvx_S_B_1",
+                    "socketMeshes": [
+                        "Socket_WoodWall_Ground"
+                    ]
+                },
+                {
+                    "name": "House_Base_Side_Back_cvx_S_B_2",
+                    "socketMeshes": [
+                        "Door_Ground",
+                        "Window"
+                    ]
+                },
+                {
+                    "name": "House_Base_Side_Back_cvx_S_B_3",
+                    "socketMeshes": [
+                        "Door_Ground",
+                        "Window"
+                    ]
+                }
+            ]
+        },
+        {
+            "basePrototype": "House_Mid_Side_ccv",
+            "sockets": [
+                {
+                    "name": "House_Mid_Side_ccv_S_1",
+                    "socketMeshes": [
+                        "Door_Mid",
+                        "Window"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Side_ccv_S_2",
+                    "socketMeshes": [
+                        "Door_Mid",
+                        "Window"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Side_ccv_S_Border_1",
+                    "socketMeshes": [
+                        "HouseBorder_1"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Side_ccv_S_Border_2",
+                    "socketMeshes": [
+                        "HouseBorder_1"
+                    ]
+                }
+            ]
+        },
+        {
+            "basePrototype": "House_Mid_Side_Back_ccv",
+            "sockets": [
+                {
+                    "name": "House_Mid_Side_Back_ccv_S_Border_1",
+                    "socketMeshes": [
+                        "HouseBorder_1"
+                    ]
+                }
+            ]
+        },
+        {
+            "basePrototype": "House_Mid_Straight_Front",
+            "sockets": [
+                {
+                    "name": "House_Mid_Straight_Front_S_B_1",
+                    "socketMeshes": [
+                        "Socket_Railing",
+                        "Socket_WoodWall_Mid"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Straight_Front_S_B_2",
+                    "socketMeshes": [
+                        "Socket_Railing",
+                        "Socket_WoodWall_Mid"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Straight_Front_S_B_3",
+                    "socketMeshes": [
+                        "Door_Mid",
+                        "Window"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Straight_Front_S_B_4",
+                    "socketMeshes": [
+                        "Door_Mid",
+                        "Window"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Straight_Front_S_Border_1",
+                    "socketMeshes": [
+                        "HouseBorder_1"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Straight_Front_S_Border_2",
+                    "socketMeshes": [
+                        "HouseBorder_1"
+                    ]
+                }
+            ]
+        },
+        {
+            "basePrototype": "House_Mid_Staight_FB_Connector_4",
+            "sockets": [
+                {
+                    "name": "House_Mid_Staight_FB_Connector_4_S_B_1",
+                    "socketMeshes": [
+                        "Socket_Railing",
+                        "Socket_WoodWall_Mid"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Staight_FB_Connector_4_S_B_2",
+                    "socketMeshes": [
+                        "Door_Mid",
+                        "Window"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Staight_FB_Connector_4_S_B_3",
+                    "socketMeshes": [
+                        "Door_Mid",
+                        "Window"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Staight_FB_Connector_4_S_B_4",
+                    "socketMeshes": [
+                        "Sunsail_2"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Staight_FB_Connector_4_S_Border_1",
+                    "socketMeshes": [
+                        "HouseBorder_1"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Staight_FB_Connector_4_S_Border_2",
+                    "socketMeshes": [
+                        "HouseBorder_1"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Staight_FB_Connector_4_S_Border_3",
+                    "socketMeshes": [
+                        "HouseBorder_2"
+                    ]
+                }
+            ]
+        },
+        {
+            "basePrototype": "House_Top_Corner_1_cvx",
+            "sockets": []
+        },
+        {
+            "basePrototype": "House_Mid_Side_2_cvx",
+            "sockets": [
+                {
+                    "name": "House_Mid_Side_2_cvx_S_B_1",
+                    "socketMeshes": [
+                        "Socket_Railing",
+                        "Socket_WoodWall_Mid"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Side_2_cvx_S_B_2",
+                    "socketMeshes": [
+                        "Door_Mid",
+                        "Window"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Side_2_cvx_S_B_3",
+                    "socketMeshes": [
+                        "Door_Mid",
+                        "Window"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Side_2_cvx_S_B_4",
+                    "socketMeshes": [
+                        "SunSail_1"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Side_2_cvx_S_Border_1",
+                    "socketMeshes": [
+                        "HouseBorder_1"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Side_2_cvx_S_Border_2",
+                    "socketMeshes": [
+                        "HouseBorder_2"
+                    ]
+                }
+            ]
+        },
+        {
+            "basePrototype": "House_Mid_Side_Back_cvx",
+            "sockets": [
+                {
+                    "name": "House_Mid_Side_Back_cvx_S_B_1",
+                    "socketMeshes": [
+                        "Socket_Railing",
+                        "Socket_WoodWall_Mid"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Side_Back_cvx_S_B_2",
+                    "socketMeshes": [
+                        "Door_Mid",
+                        "Window"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Side_Back_cvx_S_Border_1",
+                    "socketMeshes": [
+                        "HouseBorder_1"
+                    ]
+                }
+            ]
+        },
+        {
+            "basePrototype": "House_Base_Side_cvx",
+            "sockets": [
+                {
+                    "name": "House_Base_Side_cvx_S_B_1",
+                    "socketMeshes": [
+                        "Socket_WoodWall_Ground"
+                    ]
+                },
+                {
+                    "name": "House_Base_Side_cvx_S_B_2",
+                    "socketMeshes": [
+                        "Socket_WoodWall_Ground"
+                    ]
+                },
+                {
+                    "name": "House_Base_Side_cvx_S_B_3",
+                    "socketMeshes": [
+                        "Door_Ground",
+                        "Window"
+                    ]
+                },
+                {
+                    "name": "House_Base_Side_cvx_S_B_4",
+                    "socketMeshes": [
+                        "Door_Ground",
+                        "Window"
+                    ]
+                }
+            ]
+        },
+        {
+            "basePrototype": "House_Base_Corner_cvx",
+            "sockets": [
+                {
+                    "name": "House_Base_Corner_cvx_S_B_1",
+                    "socketMeshes": [
+                        "Socket_WoodWall_Ground"
+                    ]
+                },
+                {
+                    "name": "House_Base_Corner_cvx_S_B_2",
+                    "socketMeshes": [
+                        "Socket_WoodWall_Ground"
+                    ]
+                }
+            ]
+        },
+        {
+            "basePrototype": "House_Mid_Corner_1_cvx",
+            "sockets": [
+                {
+                    "name": "House_Mid_Corner_1_cvx_S_B_1",
+                    "socketMeshes": [
+                        "Socket_Railing",
+                        "Socket_WoodWall_Mid"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Corner_1_cvx_S_B_2",
+                    "socketMeshes": [
+                        "Socket_Railing",
+                        "Socket_WoodWall_Mid"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Corner_1_cvx_S_Border_1",
+                    "socketMeshes": [
+                        "HouseBorder_1"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Corner_1_cvx_S_Border_2",
+                    "socketMeshes": [
+                        "HouseBorder_1"
+                    ]
+                }
+            ]
+        },
+        {
+            "basePrototype": "House_Mid_Corner_2_cvx",
+            "sockets": [
+                {
+                    "name": "House_Mid_Corner_2_cvx_S_Border_1",
+                    "socketMeshes": [
+                        "HouseBorder_1"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Corner_2_cvx_S_Border_2",
+                    "socketMeshes": [
+                        "HouseBorder_1"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Corner_2_cvx_S_Border_3",
+                    "socketMeshes": [
+                        "HouseBorder_2"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Corner_2_cvx_S_Border_4",
+                    "socketMeshes": [
+                        "HouseBorder_2_F"
+                    ]
+                }
+            ]
+        },
+        {
+            "basePrototype": "House_Top_Straight_Middle_1",
+            "sockets": []
+        },
+        {
+            "basePrototype": "House_Top_Corner_2_cvx",
+            "sockets": []
+        },
+        {
+            "basePrototype": "House_Top_Side_1_ccv",
+            "sockets": []
+        },
+        {
+            "basePrototype": "House_Top_Side_2_ccv",
+            "sockets": []
+        },
+        {
+            "basePrototype": "House_Top_Side_2_cvx",
+            "sockets": []
+        },
+        {
+            "basePrototype": "House_Mid_Side_FB_1_ccv",
+            "sockets": [
+                {
+                    "name": "House_Mid_Side_FB_1_ccv_S_1",
+                    "socketMeshes": [
+                        "Door_Mid",
+                        "Window"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Side_FB_1_ccv_S_Border_1",
+                    "socketMeshes": [
+                        "HouseBorder_1"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Side_FB_1_ccv_S_Border_2",
+                    "socketMeshes": [
+                        "HouseBorder_1"
+                    ]
+                }
+            ]
+        },
+        {
+            "basePrototype": "House_Base_Side_Back_ccv",
+            "sockets": [
+                {
+                    "name": "House_Base_Side_Back_ccv_S_1",
+                    "socketMeshes": [
+                        "Door_Ground",
+                        "Window"
+                    ]
+                }
+            ]
+        },
+        {
+            "basePrototype": "House_Mid_Side_FB_2_ccv",
+            "sockets": [
+                {
+                    "name": "House_Mid_Side_FB_2_ccv_S_Border_1",
+                    "socketMeshes": [
+                        "HouseBorder_1"
+                    ]
+                }
+            ]
+        },
+        {
+            "basePrototype": "House_Base_Side_Back_F_cvx",
+            "sockets": [
+                {
+                    "name": "House_Base_Side_Back_F_cvx_S_B_1",
+                    "socketMeshes": [
+                        "Socket_WoodWall_Ground"
+                    ]
+                },
+                {
+                    "name": "House_Base_Side_Back_F_cvx_S_B_2",
+                    "socketMeshes": [
+                        "Door_Ground",
+                        "Window"
+                    ]
+                },
+                {
+                    "name": "House_Base_Side_Back_F_cvx_S_B_3",
+                    "socketMeshes": [
+                        "Door_Ground",
+                        "Window"
+                    ]
+                }
+            ]
+        },
+        {
+            "basePrototype": "House_Base_Straight_FB_Connector_1",
+            "sockets": []
+        },
+        {
+            "basePrototype": "House_Base_Side_Back_F_ccv",
+            "sockets": [
+                {
+                    "name": "House_Base_Side_Back_F_ccv_S_1",
+                    "socketMeshes": [
+                        "Door_Ground",
+                        "Window"
+                    ]
+                }
+            ]
+        },
+        {
+            "basePrototype": "House_Mid_Side_Back_F_cvx",
+            "sockets": [
+                {
+                    "name": "House_Mid_Side_Back_F_cvx_S_B_1",
+                    "socketMeshes": [
+                        "Socket_Railing",
+                        "Socket_WoodWall_Mid"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Side_Back_F_cvx_S_B_2",
+                    "socketMeshes": [
+                        "Door_Mid",
+                        "Window"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Side_Back_F_cvx_S_Border_1",
+                    "socketMeshes": [
+                        "HouseBorder_1"
+                    ]
+                }
+            ]
+        },
+        {
+            "basePrototype": "House_Mid_Side_2_F_cvx",
+            "sockets": [
+                {
+                    "name": "House_Mid_Side_2_F_cvx_S_B_1",
+                    "socketMeshes": [
+                        "Socket_Railing",
+                        "Socket_WoodWall_Mid"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Side_2_F_cvx_S_B_2",
+                    "socketMeshes": [
+                        "Door_Mid",
+                        "Window"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Side_2_F_cvx_S_B_3",
+                    "socketMeshes": [
+                        "Door_Mid",
+                        "Window"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Side_2_F_cvx_S_B_4",
+                    "socketMeshes": [
+                        "SunSail_1"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Side_2_F_cvx_S_Border_1",
+                    "socketMeshes": [
+                        "HouseBorder_1"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Side_2_F_cvx_S_Border_2",
+                    "socketMeshes": [
+                        "HouseBorder_2_F"
+                    ]
+                }
+            ]
+        },
+        {
+            "basePrototype": "House_Mid_Side_FB_1_F_ccv",
+            "sockets": [
+                {
+                    "name": "House_Mid_Side_FB_1_F_ccv_S_1",
+                    "socketMeshes": [
+                        "Door_Mid",
+                        "Window"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Side_FB_1_F_ccv_S_Border_1",
+                    "socketMeshes": [
+                        "HouseBorder_1"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Side_FB_1_F_ccv_S_Border_2",
+                    "socketMeshes": [
+                        "HouseBorder_1"
+                    ]
+                }
+            ]
+        },
+        {
+            "basePrototype": "House_Mid_Side_Back_F_ccv",
+            "sockets": [
+                {
+                    "name": "House_Mid_Side_Back_F_ccv_S_Border_1",
+                    "socketMeshes": [
+                        "HouseBorder_1"
+                    ]
+                }
+            ]
+        },
+        {
+            "basePrototype": "House_Mid_Straight_FB_Connector_3",
+            "sockets": [
+                {
+                    "name": "House_Mid_Straight_FB_Connector_3_S_B_1",
+                    "socketMeshes": [
+                        "Socket_Railing",
+                        "Socket_WoodWall_Mid"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Straight_FB_Connector_3_S_B_2",
+                    "socketMeshes": [
+                        "Door_Mid",
+                        "Window"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Straight_FB_Connector_3_S_B_3",
+                    "socketMeshes": [
+                        "Door_Mid",
+                        "Window"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Straight_FB_Connector_3_S_B_3.001",
+                    "socketMeshes": [
+                        "Sunsail_2_F"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Straight_FB_Connector_3_S_Border_1",
+                    "socketMeshes": [
+                        "HouseBorder_1"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Straight_FB_Connector_3_S_Border_2",
+                    "socketMeshes": [
+                        "HouseBorder_1"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Straight_FB_Connector_3_S_Border_3",
+                    "socketMeshes": [
+                        "HouseBorder_2_F"
+                    ]
+                }
+            ]
+        },
+        {
+            "basePrototype": "House_Mid_Straight_FB_Connector_1",
+            "sockets": [
+                {
+                    "name": "House_Mid_Straight_FB_Connector_1_S_Border_1",
+                    "socketMeshes": [
+                        "HouseBorder_1"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Straight_FB_Connector_1_S_Border_2",
+                    "socketMeshes": [
+                        "HouseBorder_1"
+                    ]
+                }
+            ]
+        },
+        {
+            "basePrototype": "House_Top_Straight_FB_1",
+            "sockets": []
+        },
+        {
+            "basePrototype": "House_Top_Side_2_F_cvx",
+            "sockets": []
+        },
+        {
+            "basePrototype": "House_Top_Side_2_F_ccv",
+            "sockets": []
+        },
+        {
+            "basePrototype": "House_Mid_Side_FB_2_F_ccv",
+            "sockets": [
+                {
+                    "name": "House_Mid_Side_FB_2_F_ccv_S_Border_1",
+                    "socketMeshes": [
+                        "HouseBorder_1"
+                    ]
+                }
+            ]
+        },
+        {
+            "basePrototype": "House_Middle",
+            "sockets": []
+        },
+        {
+            "basePrototype": "House_Mid_Corner_3_cvx",
+            "sockets": [
+                {
+                    "name": "House_Mid_Corner_3_cvx_S_Border_1",
+                    "socketMeshes": [
+                        "HouseBorder_1"
+                    ]
+                },
+                {
+                    "name": "House_Mid_Corner_3_cvx_S_Border_2",
+                    "socketMeshes": [
+                        "HouseBorder_1"
+                    ]
+                }
+            ]
+        },
+        {
+            "basePrototype": "House_Mid_SideToCorner_2_cvx",
+            "sockets": [
+                {
+                    "name": "House_Mid_SideToCorner_2_cvx_S_1",
+                    "socketMeshes": [
+                        "Socket_Railing",
+                        "Socket_WoodWall_Mid"
+                    ]
+                },
+                {
+                    "name": "House_Mid_SideToCorner_2_cvx_S_2",
+                    "socketMeshes": [
+                        "Socket_Railing",
+                        "Socket_WoodWall_Mid"
+                    ]
+                },
+                {
+                    "name": "House_Mid_SideToCorner_2_cvx_S_Border_1",
+                    "socketMeshes": [
+                        "HouseBorder_1"
+                    ]
+                },
+                {
+                    "name": "House_Mid_SideToCorner_2_cvx_S_Border_2",
+                    "socketMeshes": [
+                        "HouseBorder_1"
+                    ]
+                }
+            ]
+        },
+        {
+            "basePrototype": "House_Mid_SideToCorner_1_cvx",
+            "sockets": [
+                {
+                    "name": "House_Mid_SideToCorner_1_cvx_S_Border_1",
+                    "socketMeshes": [
+                        "HouseBorder_1"
+                    ]
+                },
+                {
+                    "name": "House_Mid_SideToCorner_1_cvx_S_Border_2",
+                    "socketMeshes": [
+                        "HouseBorder_1"
+                    ]
+                },
+                {
+                    "name": "House_Mid_SideToCorner_1_cvx_S_Border_3",
+                    "socketMeshes": [
+                        "HouseBorder_2"
+                    ]
+                },
+                {
+                    "name": "House_Mid_SideToCorner_1_cvx_S_Border_4",
+                    "socketMeshes": [
+                        "HouseBorder_2_F"
+                    ]
+                }
+            ]
+        },
+        {
+            "basePrototype": "Pavement_Base",
+            "sockets": [
+                {
+                    "name": "Pavement_Base_S_1",
+                    "socketMeshes": [
+                        "Socket_Table_1"
+                    ]
+                }
+            ]
+        }
+    ]
+}

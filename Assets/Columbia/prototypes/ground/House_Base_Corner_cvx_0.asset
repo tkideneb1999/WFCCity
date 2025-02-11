@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2427bc09ed71f847a5ca79e9ed67cd0, type: 3}
+  m_Name: House_Base_Corner_cvx_0
+  m_EditorClassIdentifier: 
+  mesh: {fileID: 0}
+  basePrototype: {fileID: 11400000, guid: c406f32f66a579540ad5d57128f8d24d, type: 2}
+  rotation: 0
+  prototypes:
+  - direction: Xp
+    prototypes:
+    - {fileID: 11400000, guid: 813f51e63c3d24349a3467228d06d0ca, type: 2}
+    - {fileID: 11400000, guid: 732859376f2d5d542acf381e044a1769, type: 2}
+    - {fileID: 11400000, guid: ddedc8a261c6ebd45bd2136ed8365eae, type: 2}
+    - {fileID: 11400000, guid: fec801b8365daed4a924927ebee7a533, type: 2}
+    - {fileID: 11400000, guid: e594ec306c00fca4f8a8d5173fe230ce, type: 2}
+    - {fileID: 11400000, guid: cb20b0c43f6983448b9ddd38b6a23aef, type: 2}
+    - {fileID: 11400000, guid: 749825665a7aad241a18ce26a3074cb9, type: 2}
+  - direction: Xn
+    prototypes:
+    - {fileID: 11400000, guid: b6a28eef471ecab45acb4e9849a29a65, type: 2}
+    - {fileID: 11400000, guid: 813f51e63c3d24349a3467228d06d0ca, type: 2}
+    - {fileID: 11400000, guid: faf35eece7c41a640b9c81a9d64cf36d, type: 2}
+    - {fileID: 11400000, guid: a9db3a0ce3209b242bef81669ed589e6, type: 2}
+    - {fileID: 11400000, guid: efb1423669676e848a513547ae2c0003, type: 2}
+    - {fileID: 11400000, guid: 94d598ef05ad16f47a005891dadc199e, type: 2}
+    - {fileID: 11400000, guid: b535376c213084540a3e3dfbf317b432, type: 2}
+    - {fileID: 11400000, guid: e594ec306c00fca4f8a8d5173fe230ce, type: 2}
+    - {fileID: 11400000, guid: 033ad1b7b9ca5394eba72a09272fc362, type: 2}
+    - {fileID: 11400000, guid: 94c6c98e0f9571b44b34eace0bd8e66d, type: 2}
+    - {fileID: 11400000, guid: 749825665a7aad241a18ce26a3074cb9, type: 2}
+    - {fileID: 11400000, guid: df3b9f0826ba5724789876d265b99041, type: 2}
+    - {fileID: 11400000, guid: 3ea3ab44a4b961c4f8424fb7256c60c8, type: 2}
+    - {fileID: 11400000, guid: a2f39e2a4c2e3a14f88d06ea4a232999, type: 2}
+    - {fileID: 11400000, guid: bfff5c2c7889fbb4186778b04ff8799d, type: 2}
+    - {fileID: 11400000, guid: 2945e682532b0904ab988a74722c1d3f, type: 2}
+    - {fileID: 11400000, guid: 27d15033dc2e73148aad5f09333247d3, type: 2}
+    - {fileID: 11400000, guid: 3d539a4e69882114a9a11ff8cdea2b1d, type: 2}
+    - {fileID: 11400000, guid: c0642702c04dfc74d94976dcff45715a, type: 2}
+    - {fileID: 11400000, guid: bd3ce523d50889446bd1ca6306ea20bd, type: 2}
+    - {fileID: 11400000, guid: ffbb151039e36b24e88a1ff449db596c, type: 2}
+    - {fileID: 11400000, guid: 74c70d780f95c374e89babcaee01edbe, type: 2}
+    - {fileID: 11400000, guid: 1e5d263e7fb4d0b40b8acf4beb471591, type: 2}
+    - {fileID: 11400000, guid: 088faee818ff355448d1c9ccab9f9ba6, type: 2}
+    - {fileID: 11400000, guid: 91d87315f95ff44418a53542531fc994, type: 2}
+    - {fileID: 11400000, guid: a5bf2a2108d325242b6da27c803ce816, type: 2}
+    - {fileID: 11400000, guid: 210398f7599b06c4a8f4b8966e705f85, type: 2}
+    - {fileID: 11400000, guid: eb549f42eb1c8884e80a53531fbb465f, type: 2}
+    - {fileID: 11400000, guid: 0e42cf7e8e20897489b501df79a05a12, type: 2}
+    - {fileID: 11400000, guid: bd1e9aec421f41f468b5ffae2ec892e6, type: 2}
+  - direction: Yp
+    prototypes:
+    - {fileID: 11400000, guid: 9187b5bae0c30f3499016245a1d5a5b6, type: 2}
+    - {fileID: 11400000, guid: 9ea71524131fc53418c76acd49fad640, type: 2}
+    - {fileID: 11400000, guid: 2c0f66bc663d76b44807d906a13c8b31, type: 2}
+  - direction: Yn
+    prototypes:
+    - {fileID: 11400000, guid: fe6982ed9bb6d0147a88e183a6f4a0c1, type: 2}
+  - direction: Zp
+    prototypes:
+    - {fileID: 11400000, guid: c824895171323ae48bf7758354029119, type: 2}
+    - {fileID: 11400000, guid: b10112f223ce4d942959fde26d598971, type: 2}
+    - {fileID: 11400000, guid: 9384f4776dbdec149af18d00b412f6b4, type: 2}
+    - {fileID: 11400000, guid: fec801b8365daed4a924927ebee7a533, type: 2}
+    - {fileID: 11400000, guid: 4843b2acd80e6ac449c51ebbe8c5416f, type: 2}
+    - {fileID: 11400000, guid: aeae12c7d89429b4dbee1a0b367d1561, type: 2}
+    - {fileID: 11400000, guid: c4bc091aab352324b81f80a8af7a8ce9, type: 2}
+  - direction: Zn
+    prototypes:
+    - {fileID: 11400000, guid: c824895171323ae48bf7758354029119, type: 2}
+    - {fileID: 11400000, guid: b6a28eef471ecab45acb4e9849a29a65, type: 2}
+    - {fileID: 11400000, guid: cb05c8b909108fd44b2f48e4f3384a11, type: 2}
+    - {fileID: 11400000, guid: befa2ddb0f3c0684ca7e8f76f1783e03, type: 2}
+    - {fileID: 11400000, guid: 94a56a6778a6a004e8b9c77f869c0eb5, type: 2}
+    - {fileID: 11400000, guid: 709acc169217970428f213de04678c26, type: 2}
+    - {fileID: 11400000, guid: 4843b2acd80e6ac449c51ebbe8c5416f, type: 2}
+    - {fileID: 11400000, guid: b535376c213084540a3e3dfbf317b432, type: 2}
+    - {fileID: 11400000, guid: aeae12c7d89429b4dbee1a0b367d1561, type: 2}
+    - {fileID: 11400000, guid: 033ad1b7b9ca5394eba72a09272fc362, type: 2}
+    - {fileID: 11400000, guid: 16bea8942792c9f4cb741af7da388b25, type: 2}
+    - {fileID: 11400000, guid: df3b9f0826ba5724789876d265b99041, type: 2}
+    - {fileID: 11400000, guid: 5bb3738098f9db34fb9ed4f716e74987, type: 2}
+    - {fileID: 11400000, guid: a2f39e2a4c2e3a14f88d06ea4a232999, type: 2}
+    - {fileID: 11400000, guid: e0780bf2b6094504988673ad6e3437e7, type: 2}
+    - {fileID: 11400000, guid: 29ac445516202c54098f85e4ad9e34c4, type: 2}
+    - {fileID: 11400000, guid: 27d15033dc2e73148aad5f09333247d3, type: 2}
+    - {fileID: 11400000, guid: a79732a2a19cdb94bab438f8e9462499, type: 2}
+    - {fileID: 11400000, guid: c0642702c04dfc74d94976dcff45715a, type: 2}
+    - {fileID: 11400000, guid: 51c1d9e276f4b48408ad778ed0cd8204, type: 2}
+    - {fileID: 11400000, guid: bd3ce523d50889446bd1ca6306ea20bd, type: 2}
+    - {fileID: 11400000, guid: 0a5c2b358d85b5541a1686fa69cb0d1b, type: 2}
+    - {fileID: 11400000, guid: e7060e1a077339e489f21dbf4d4d53de, type: 2}
+    - {fileID: 11400000, guid: 411af1ce6b0c3e44094b585ab62d2a13, type: 2}
+    - {fileID: 11400000, guid: fe2918876e2b6d6478da47f9de051336, type: 2}
+    - {fileID: 11400000, guid: 796522fcb0f8bb747b7920bb91391c41, type: 2}
+    - {fileID: 11400000, guid: 210398f7599b06c4a8f4b8966e705f85, type: 2}
+    - {fileID: 11400000, guid: eb549f42eb1c8884e80a53531fbb465f, type: 2}
+    - {fileID: 11400000, guid: 0e42cf7e8e20897489b501df79a05a12, type: 2}
+    - {fileID: 11400000, guid: bd1e9aec421f41f468b5ffae2ec892e6, type: 2}
+  typeAdjacency:
+  - direction: {x: 1, y: 0, z: 0}
+    types:
+    - house
+  - direction: {x: -1, y: 0, z: 0}
+    types:
+    - house
+    - pavement
+    - river
+  - direction: {x: 0, y: 1, z: 0}
+    types:
+    - house
+  - direction: {x: 0, y: -1, z: 0}
+    types:
+    - house
+  - direction: {x: 0, y: 0, z: 1}
+    types:
+    - house
+  - direction: {x: 0, y: 0, z: -1}
+    types:
+    - house
+    - pavement
+    - river

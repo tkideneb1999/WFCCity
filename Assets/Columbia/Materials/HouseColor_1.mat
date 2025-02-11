@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: HouseColor_1
+  m_Shader: {fileID: 4800000, guid: 77736f720812a034fbf29317fa71039d, type: 3}
+  m_ValidKeywords:
+  - _NORMALMAP
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _PaintColorMap:
+        m_Texture: {fileID: 2800000, guid: 8add34c0b7fe6ff49b2678faa48d426b, type: 3}
+        m_Scale: {x: 0.25, y: 0.25}
+        m_Offset: {x: 0, y: 0}
+    - _PaintDataMap:
+        m_Texture: {fileID: 2800000, guid: bfcc0e085450f9e4689ead34fdc9669b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PaintNormalMap:
+        m_Texture: {fileID: 2800000, guid: 19c7696d2a41df8449904723d2ebd5d6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _MaxHeight: 10
+    - _Metallic: 0
+    - _MetallicSpecToggle: 0
+    - _NormalMapStrength: 1
+    - _NormalMapToggle: 1
+    - _ReceiveShadowsOff: 0
+    - _Smoothness: 0
+    - _Tiling: 0.5
+    m_Colors:
+    - _BaseColor: {r: 0.40137255, g: 0.52308196, b: 0.69803923, a: 1}
+    - _SpecColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+    - _TopColor: {r: 0.54509807, g: 0.60784316, b: 0.69803923, a: 1}
+  m_BuildTextureStacks: []

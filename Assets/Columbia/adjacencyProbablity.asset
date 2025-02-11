@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68140f74fe7283a45aeeb839886ba413, type: 3}
+  m_Name: adjacencyProbablity
+  m_EditorClassIdentifier: 
+  overwriteProbabilities:
+  - first: {fileID: 11400000, guid: 63825214b5098f84d8fb86d9a73b9b4c, type: 2}
+    second: {fileID: 11400000, guid: 4843b2acd80e6ac449c51ebbe8c5416f, type: 2}
+    probability: 0.05
+  - first: {fileID: 11400000, guid: 4843b2acd80e6ac449c51ebbe8c5416f, type: 2}
+    second: {fileID: 11400000, guid: b535376c213084540a3e3dfbf317b432, type: 2}
+    probability: 0.05
+  - first: {fileID: 11400000, guid: b535376c213084540a3e3dfbf317b432, type: 2}
+    second: {fileID: 11400000, guid: e594ec306c00fca4f8a8d5173fe230ce, type: 2}
+    probability: 0.05
+  - first: {fileID: 11400000, guid: e594ec306c00fca4f8a8d5173fe230ce, type: 2}
+    second: {fileID: 11400000, guid: 63825214b5098f84d8fb86d9a73b9b4c, type: 2}
+    probability: 0.05

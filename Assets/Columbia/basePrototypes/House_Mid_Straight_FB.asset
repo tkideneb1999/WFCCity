@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5760d2d18817454ca86b1841012f6ca, type: 3}
+  m_Name: House_Mid_Straight_FB
+  m_EditorClassIdentifier: 
+  probability: 1
+  mesh: {fileID: 919132149155446097, guid: c609e026f6db5864a8ff7e3e22b2fd02, type: 3}
+  type: house
+  sockets:
+  - name: House_Mid_Straight_FB_S_B_1
+    placementRule: {fileID: 11400000, guid: f15fb8b3363b2074b930ab73698c75c3, type: 2}
+    rotationType: 0
+    rotation: {x: 0, y: 0}
+    movable: 0
+    maxMoveAmount: {x: 0, y: 0}
+    adjTileOffset: {x: 0, y: 0}
+    receptacles:
+    - {fileID: 11400000, guid: dce7d1b016e81e849bd9c911e0ba4019, type: 2}
+    - {fileID: 11400000, guid: c2092dca737506740a8796a8373106b6, type: 2}
+  - name: House_Mid_Straight_FB_S_B_2
+    placementRule: {fileID: 11400000, guid: f15fb8b3363b2074b930ab73698c75c3, type: 2}
+    rotationType: 0
+    rotation: {x: 0, y: 0}
+    movable: 0
+    maxMoveAmount: {x: 0, y: 0}
+    adjTileOffset: {x: 0, y: 0}
+    receptacles:
+    - {fileID: 11400000, guid: dce7d1b016e81e849bd9c911e0ba4019, type: 2}
+    - {fileID: 11400000, guid: c2092dca737506740a8796a8373106b6, type: 2}
+  - name: House_Mid_Straight_FB_S_B_3
+    placementRule: {fileID: 11400000, guid: 1945a1dda87e27245a9749cd7650d148, type: 2}
+    rotationType: 0
+    rotation: {x: 0, y: 0}
+    movable: 0
+    maxMoveAmount: {x: 0, y: 0}
+    adjTileOffset: {x: 0, y: 0}
+    receptacles:
+    - {fileID: 11400000, guid: dd37b2b14f95f5748b39c54bafc58d67, type: 2}
+    - {fileID: 11400000, guid: 008143cdb1f8154418953c87177001c8, type: 2}
+  - name: House_Mid_Straight_FB_S_B_3.001
+    placementRule: {fileID: 11400000, guid: f11c5c7aeae989d4fb29ac3723f2d2ed, type: 2}
+    rotationType: 0
+    rotation: {x: 0, y: 0}
+    movable: 0
+    maxMoveAmount: {x: 0, y: 0}
+    adjTileOffset: {x: 0, y: 0}
+    receptacles:
+    - {fileID: 11400000, guid: 796a55d96b0b23a4c987d087e4143da5, type: 2}
+  - name: House_Mid_Straight_FB_S_B_4
+    placementRule: {fileID: 11400000, guid: 1945a1dda87e27245a9749cd7650d148, type: 2}
+    rotationType: 0
+    rotation: {x: 0, y: 0}
+    movable: 0
+    maxMoveAmount: {x: 0, y: 0}
+    adjTileOffset: {x: 0, y: 0}
+    receptacles:
+    - {fileID: 11400000, guid: dd37b2b14f95f5748b39c54bafc58d67, type: 2}
+    - {fileID: 11400000, guid: 008143cdb1f8154418953c87177001c8, type: 2}
+  - name: House_Mid_Straight_FB_S_B_4.001
+    placementRule: {fileID: 11400000, guid: f11c5c7aeae989d4fb29ac3723f2d2ed, type: 2}
+    rotationType: 0
+    rotation: {x: 0, y: 0}
+    movable: 0
+    maxMoveAmount: {x: 0, y: 0}
+    adjTileOffset: {x: 0, y: 0}
+    receptacles:
+    - {fileID: 11400000, guid: 796a55d96b0b23a4c987d087e4143da5, type: 2}
+  - name: House_Mid_Straight_FB_S_Border_1
+    placementRule: {fileID: 11400000, guid: adcd35b7136ab4a449fc4f92fc6f0ec5, type: 2}
+    rotationType: 0
+    rotation: {x: 0, y: 0}
+    movable: 0
+    maxMoveAmount: {x: 0, y: 0}
+    adjTileOffset: {x: 0, y: 1}
+    receptacles:
+    - {fileID: 11400000, guid: 0d62170cd2902834181479d1c554046b, type: 2}
+  - name: House_Mid_Straight_FB_S_Border_2
+    placementRule: {fileID: 11400000, guid: adcd35b7136ab4a449fc4f92fc6f0ec5, type: 2}
+    rotationType: 0
+    rotation: {x: 0, y: 0}
+    movable: 0
+    maxMoveAmount: {x: 0, y: 0}
+    adjTileOffset: {x: 0, y: -1}
+    receptacles:
+    - {fileID: 11400000, guid: 0d62170cd2902834181479d1c554046b, type: 2}
+  - name: House_Mid_Straight_FB_S_Border_3
+    placementRule: {fileID: 11400000, guid: adcd35b7136ab4a449fc4f92fc6f0ec5, type: 2}
+    rotationType: 0
+    rotation: {x: 0, y: 0}
+    movable: 0
+    maxMoveAmount: {x: 0, y: 0}
+    adjTileOffset: {x: 0, y: 1}
+    receptacles:
+    - {fileID: 11400000, guid: 762d4039297d1c743b512824870bfd32, type: 2}
+  - name: House_Mid_Straight_FB_S_Border_4
+    placementRule: {fileID: 11400000, guid: adcd35b7136ab4a449fc4f92fc6f0ec5, type: 2}
+    rotationType: 0
+    rotation: {x: 0, y: 0}
+    movable: 0
+    maxMoveAmount: {x: 0, y: 0}
+    adjTileOffset: {x: 0, y: -1}
+    receptacles:
+    - {fileID: 11400000, guid: 11f18db34571d9d45949247392ca3532, type: 2}

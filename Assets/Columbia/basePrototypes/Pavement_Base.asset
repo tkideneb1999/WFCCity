@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5760d2d18817454ca86b1841012f6ca, type: 3}
+  m_Name: Pavement_Base
+  m_EditorClassIdentifier: 
+  probability: 1.5
+  mesh: {fileID: 919132149155446097, guid: 72f2089020f826748b448438d43835ed, type: 3}
+  type: pavement
+  sockets:
+  - name: Pavement_Base_S_1
+    placementRule: {fileID: 11400000, guid: fe14d608025055a408610cb03c855e85, type: 2}
+    rotationType: 0
+    rotation: {x: 0, y: 0}
+    movable: 0
+    maxMoveAmount: {x: 0, y: 0}
+    adjTileOffset: {x: 0, y: 0}
+    receptacles:
+    - {fileID: 11400000, guid: c111c67976c50634e99333f2b6d63782, type: 2}
+    - {fileID: 11400000, guid: 4043abded990e194d9dce12fe32da613, type: 2}
+    - {fileID: 11400000, guid: 361ff2b4c767a9b44a0a41be324f8e8c, type: 2}
+    - {fileID: 11400000, guid: a5fce9ada3041e04ebf5fba40571f713, type: 2}
+    - {fileID: 11400000, guid: 275ffbe50e96eb14c9b26be9c93320de, type: 2}
+    - {fileID: 11400000, guid: a93b2fb1f6ce1f9498eeb5a96d6d75a9, type: 2}
+    - {fileID: 11400000, guid: 908131e04156d2a45b759b46ab1a9ada, type: 2}

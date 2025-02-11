@@ -1,0 +1,953 @@
+{
+    "prototypes": [
+        {
+            "name": "W_Wall_0",
+            "mesh": "Wall",
+            "rotation": 0,
+            "sockets": {
+                "Xp": "0",
+                "Xn": "0f",
+                "Yp": "1s",
+                "Yn": "-1",
+                "Zp": "v0_0",
+                "Zn": "v0_0"
+            }
+        },
+        {
+            "name": "W_Wall_1",
+            "mesh": "Wall",
+            "rotation": 1,
+            "sockets": {
+                "Xp": "1s",
+                "Xn": "-1",
+                "Yp": "0f",
+                "Yn": "0",
+                "Zp": "v0_1",
+                "Zn": "v0_1"
+            }
+        },
+        {
+            "name": "W_Wall_2",
+            "mesh": "Wall",
+            "rotation": 2,
+            "sockets": {
+                "Xp": "0f",
+                "Xn": "0",
+                "Yp": "-1",
+                "Yn": "1s",
+                "Zp": "v0_2",
+                "Zn": "v0_2"
+            }
+        },
+        {
+            "name": "W_Wall_3",
+            "mesh": "Wall",
+            "rotation": 3,
+            "sockets": {
+                "Xp": "-1",
+                "Xn": "1s",
+                "Yp": "0",
+                "Yn": "0f",
+                "Zp": "v0_3",
+                "Zn": "v0_3"
+            }
+        },
+        {
+            "name": "WC_cvx_0",
+            "mesh": "Wall_Corner_cvx",
+            "rotation": 0,
+            "sockets": {
+                "Xp": "0",
+                "Xn": "-1",
+                "Yp": "0f",
+                "Yn": "-1",
+                "Zp": "v1_0",
+                "Zn": "v1_0"
+            }
+        },
+        {
+            "name": "WC_cvx_1",
+            "mesh": "Wall_Corner_cvx",
+            "rotation": 1,
+            "sockets": {
+                "Xp": "0f",
+                "Xn": "-1",
+                "Yp": "-1",
+                "Yn": "0",
+                "Zp": "v1_1",
+                "Zn": "v1_1"
+            }
+        },
+        {
+            "name": "WC_cvx_2",
+            "mesh": "Wall_Corner_cvx",
+            "rotation": 2,
+            "sockets": {
+                "Xp": "-1",
+                "Xn": "0",
+                "Yp": "-1",
+                "Yn": "0f",
+                "Zp": "v1_2",
+                "Zn": "v1_2"
+            }
+        },
+        {
+            "name": "WC_cvx_3",
+            "mesh": "Wall_Corner_cvx",
+            "rotation": 3,
+            "sockets": {
+                "Xp": "-1",
+                "Xn": "0f",
+                "Yp": "0",
+                "Yn": "-1",
+                "Zp": "v1_3",
+                "Zn": "v1_3"
+            }
+        },
+        {
+            "name": "WCUO_cvx_0",
+            "mesh": "Wall_Corner_Upper_Outer_cvx",
+            "rotation": 0,
+            "sockets": {
+                "Xp": "2",
+                "Xn": "-1",
+                "Yp": "2f",
+                "Yn": "-1",
+                "Zp": "-1",
+                "Zn": "v1_0"
+            }
+        },
+        {
+            "name": "WCUO_cvx_1",
+            "mesh": "Wall_Corner_Upper_Outer_cvx",
+            "rotation": 1,
+            "sockets": {
+                "Xp": "2f",
+                "Xn": "-1",
+                "Yp": "-1",
+                "Yn": "2",
+                "Zp": "-1",
+                "Zn": "v1_1"
+            }
+        },
+        {
+            "name": "WCUO_cvx_2",
+            "mesh": "Wall_Corner_Upper_Outer_cvx",
+            "rotation": 2,
+            "sockets": {
+                "Xp": "-1",
+                "Xn": "2",
+                "Yp": "-1",
+                "Yn": "2f",
+                "Zp": "-1",
+                "Zn": "v1_2"
+            }
+        },
+        {
+            "name": "WCUO_cvx_3",
+            "mesh": "Wall_Corner_Upper_Outer_cvx",
+            "rotation": 3,
+            "sockets": {
+                "Xp": "-1",
+                "Xn": "2f",
+                "Yp": "2",
+                "Yn": "-1",
+                "Zp": "-1",
+                "Zn": "v1_3"
+            }
+        },
+        {
+            "name": "WCLO_cvx_0",
+            "mesh": "Wall_Corner_Lower_Outer_cvx",
+            "rotation": 0,
+            "sockets": {
+                "Xp": "3",
+                "Xn": "-1",
+                "Yp": "3f",
+                "Yn": "-1",
+                "Zp": "v1_0",
+                "Zn": "-1"
+            }
+        },
+        {
+            "name": "WCLO_cvx_1",
+            "mesh": "Wall_Corner_Lower_Outer_cvx",
+            "rotation": 1,
+            "sockets": {
+                "Xp": "3f",
+                "Xn": "-1",
+                "Yp": "-1",
+                "Yn": "3",
+                "Zp": "v1_1",
+                "Zn": "-1"
+            }
+        },
+        {
+            "name": "WCLO_cvx_2",
+            "mesh": "Wall_Corner_Lower_Outer_cvx",
+            "rotation": 2,
+            "sockets": {
+                "Xp": "-1",
+                "Xn": "3",
+                "Yp": "-1",
+                "Yn": "3f",
+                "Zp": "v1_2",
+                "Zn": "-1"
+            }
+        },
+        {
+            "name": "WCLO_cvx_3",
+            "mesh": "Wall_Corner_Lower_Outer_cvx",
+            "rotation": 3,
+            "sockets": {
+                "Xp": "-1",
+                "Xn": "3f",
+                "Yp": "3",
+                "Yn": "-1",
+                "Zp": "v1_3",
+                "Zn": "-1"
+            }
+        },
+        {
+            "name": "WTU_cvx_0",
+            "mesh": "Wall_Trim_Upper_cvx",
+            "rotation": 0,
+            "sockets": {
+                "Xp": "2",
+                "Xn": "2f",
+                "Yp": "4s",
+                "Yn": "-1",
+                "Zp": "-1",
+                "Zn": "v0_0"
+            }
+        },
+        {
+            "name": "WTU_cvx_1",
+            "mesh": "Wall_Trim_Upper_cvx",
+            "rotation": 1,
+            "sockets": {
+                "Xp": "4s",
+                "Xn": "-1",
+                "Yp": "2f",
+                "Yn": "2",
+                "Zp": "-1",
+                "Zn": "v0_1"
+            }
+        },
+        {
+            "name": "WTU_cvx_2",
+            "mesh": "Wall_Trim_Upper_cvx",
+            "rotation": 2,
+            "sockets": {
+                "Xp": "2f",
+                "Xn": "2",
+                "Yp": "-1",
+                "Yn": "4s",
+                "Zp": "-1",
+                "Zn": "v0_2"
+            }
+        },
+        {
+            "name": "WTU_cvx_3",
+            "mesh": "Wall_Trim_Upper_cvx",
+            "rotation": 3,
+            "sockets": {
+                "Xp": "-1",
+                "Xn": "4s",
+                "Yp": "2",
+                "Yn": "2f",
+                "Zp": "-1",
+                "Zn": "v0_3"
+            }
+        },
+        {
+            "name": "C_Ceiling_0",
+            "mesh": "Ceiling",
+            "rotation": 0,
+            "sockets": {
+                "Xp": "5s",
+                "Xn": "5s",
+                "Yp": "5s",
+                "Yn": "5s",
+                "Zp": "v2_0",
+                "Zn": "-1"
+            }
+        },
+        {
+            "name": "C_Ceiling_1",
+            "mesh": "Ceiling",
+            "rotation": 1,
+            "sockets": {
+                "Xp": "5s",
+                "Xn": "5s",
+                "Yp": "5s",
+                "Yn": "5s",
+                "Zp": "v2_1",
+                "Zn": "-1"
+            }
+        },
+        {
+            "name": "C_Ceiling_2",
+            "mesh": "Ceiling",
+            "rotation": 2,
+            "sockets": {
+                "Xp": "5s",
+                "Xn": "5s",
+                "Yp": "5s",
+                "Yn": "5s",
+                "Zp": "v2_2",
+                "Zn": "-1"
+            }
+        },
+        {
+            "name": "C_Ceiling_3",
+            "mesh": "Ceiling",
+            "rotation": 3,
+            "sockets": {
+                "Xp": "5s",
+                "Xn": "5s",
+                "Yp": "5s",
+                "Yn": "5s",
+                "Zp": "v2_3",
+                "Zn": "-1"
+            }
+        },
+        {
+            "name": "F_Floor_0",
+            "mesh": "Floor",
+            "rotation": 0,
+            "sockets": {
+                "Xp": "4s",
+                "Xn": "4s",
+                "Yp": "4s",
+                "Yn": "4s",
+                "Zp": "-1",
+                "Zn": "v2_0"
+            }
+        },
+        {
+            "name": "F_Floor_1",
+            "mesh": "Floor",
+            "rotation": 1,
+            "sockets": {
+                "Xp": "4s",
+                "Xn": "4s",
+                "Yp": "4s",
+                "Yn": "4s",
+                "Zp": "-1",
+                "Zn": "v2_1"
+            }
+        },
+        {
+            "name": "F_Floor_2",
+            "mesh": "Floor",
+            "rotation": 2,
+            "sockets": {
+                "Xp": "4s",
+                "Xn": "4s",
+                "Yp": "4s",
+                "Yn": "4s",
+                "Zp": "-1",
+                "Zn": "v2_2"
+            }
+        },
+        {
+            "name": "F_Floor_3",
+            "mesh": "Floor",
+            "rotation": 3,
+            "sockets": {
+                "Xp": "4s",
+                "Xn": "4s",
+                "Yp": "4s",
+                "Yn": "4s",
+                "Zp": "-1",
+                "Zn": "v2_3"
+            }
+        },
+        {
+            "name": "WCLI_cvx_0",
+            "mesh": "Wall_Corner_Lower_Inner_cvx",
+            "rotation": 0,
+            "sockets": {
+                "Xp": "6",
+                "Xn": "4s",
+                "Yp": "6f",
+                "Yn": "4s",
+                "Zp": "v1_0",
+                "Zn": "v2_0"
+            }
+        },
+        {
+            "name": "WCLI_cvx_1",
+            "mesh": "Wall_Corner_Lower_Inner_cvx",
+            "rotation": 1,
+            "sockets": {
+                "Xp": "6f",
+                "Xn": "4s",
+                "Yp": "4s",
+                "Yn": "6",
+                "Zp": "v1_1",
+                "Zn": "v2_1"
+            }
+        },
+        {
+            "name": "WCLI_cvx_2",
+            "mesh": "Wall_Corner_Lower_Inner_cvx",
+            "rotation": 2,
+            "sockets": {
+                "Xp": "4s",
+                "Xn": "6",
+                "Yp": "4s",
+                "Yn": "6f",
+                "Zp": "v1_2",
+                "Zn": "v2_2"
+            }
+        },
+        {
+            "name": "WCLI_cvx_3",
+            "mesh": "Wall_Corner_Lower_Inner_cvx",
+            "rotation": 3,
+            "sockets": {
+                "Xp": "4s",
+                "Xn": "6f",
+                "Yp": "6",
+                "Yn": "4s",
+                "Zp": "v1_3",
+                "Zn": "v2_3"
+            }
+        },
+        {
+            "name": "WCUI_cvx_0",
+            "mesh": "Wall_Corner_Upper_Inner_cvx",
+            "rotation": 0,
+            "sockets": {
+                "Xp": "7",
+                "Xn": "5s",
+                "Yp": "7f",
+                "Yn": "5s",
+                "Zp": "v2_0",
+                "Zn": "v1_0"
+            }
+        },
+        {
+            "name": "WCUI_cvx_1",
+            "mesh": "Wall_Corner_Upper_Inner_cvx",
+            "rotation": 1,
+            "sockets": {
+                "Xp": "7f",
+                "Xn": "5s",
+                "Yp": "5s",
+                "Yn": "7",
+                "Zp": "v2_1",
+                "Zn": "v1_1"
+            }
+        },
+        {
+            "name": "WCUI_cvx_2",
+            "mesh": "Wall_Corner_Upper_Inner_cvx",
+            "rotation": 2,
+            "sockets": {
+                "Xp": "5s",
+                "Xn": "7",
+                "Yp": "5s",
+                "Yn": "7f",
+                "Zp": "v2_2",
+                "Zn": "v1_2"
+            }
+        },
+        {
+            "name": "WCUI_cvx_3",
+            "mesh": "Wall_Corner_Upper_Inner_cvx",
+            "rotation": 3,
+            "sockets": {
+                "Xp": "5s",
+                "Xn": "7f",
+                "Yp": "7",
+                "Yn": "5s",
+                "Zp": "v2_3",
+                "Zn": "v1_3"
+            }
+        },
+        {
+            "name": "WTL_ccv_0",
+            "mesh": "Wall_Trim_Lower_ccv",
+            "rotation": 0,
+            "sockets": {
+                "Xp": "6",
+                "Xn": "6f",
+                "Yp": "1s",
+                "Yn": "4s",
+                "Zp": "v0_0",
+                "Zn": "v2_0"
+            }
+        },
+        {
+            "name": "WTL_ccv_1",
+            "mesh": "Wall_Trim_Lower_ccv",
+            "rotation": 1,
+            "sockets": {
+                "Xp": "1s",
+                "Xn": "4s",
+                "Yp": "6f",
+                "Yn": "6",
+                "Zp": "v0_1",
+                "Zn": "v2_1"
+            }
+        },
+        {
+            "name": "WTL_ccv_2",
+            "mesh": "Wall_Trim_Lower_ccv",
+            "rotation": 2,
+            "sockets": {
+                "Xp": "6f",
+                "Xn": "6",
+                "Yp": "4s",
+                "Yn": "1s",
+                "Zp": "v0_2",
+                "Zn": "v2_2"
+            }
+        },
+        {
+            "name": "WTL_ccv_3",
+            "mesh": "Wall_Trim_Lower_ccv",
+            "rotation": 3,
+            "sockets": {
+                "Xp": "4s",
+                "Xn": "1s",
+                "Yp": "6",
+                "Yn": "6f",
+                "Zp": "v0_3",
+                "Zn": "v2_3"
+            }
+        },
+        {
+            "name": "WC_ccv_0",
+            "mesh": "Wall_Corner_ccv",
+            "rotation": 0,
+            "sockets": {
+                "Xp": "1s",
+                "Xn": "0f",
+                "Yp": "1s",
+                "Yn": "0",
+                "Zp": "v3_0",
+                "Zn": "v3_0"
+            }
+        },
+        {
+            "name": "WC_ccv_1",
+            "mesh": "Wall_Corner_ccv",
+            "rotation": 1,
+            "sockets": {
+                "Xp": "1s",
+                "Xn": "0",
+                "Yp": "0f",
+                "Yn": "1s",
+                "Zp": "v3_1",
+                "Zn": "v3_1"
+            }
+        },
+        {
+            "name": "WC_ccv_2",
+            "mesh": "Wall_Corner_ccv",
+            "rotation": 2,
+            "sockets": {
+                "Xp": "0f",
+                "Xn": "1s",
+                "Yp": "0",
+                "Yn": "1s",
+                "Zp": "v3_2",
+                "Zn": "v3_2"
+            }
+        },
+        {
+            "name": "WC_ccv_3",
+            "mesh": "Wall_Corner_ccv",
+            "rotation": 3,
+            "sockets": {
+                "Xp": "0",
+                "Xn": "1s",
+                "Yp": "1s",
+                "Yn": "0f",
+                "Zp": "v3_3",
+                "Zn": "v3_3"
+            }
+        },
+        {
+            "name": "WTU_ccv_0",
+            "mesh": "Wall_Trim_Upper_ccv",
+            "rotation": 0,
+            "sockets": {
+                "Xp": "7f",
+                "Xn": "7",
+                "Yp": "5s",
+                "Yn": "1s",
+                "Zp": "v2_0",
+                "Zn": "v0_2"
+            }
+        },
+        {
+            "name": "WTU_ccv_1",
+            "mesh": "Wall_Trim_Upper_ccv",
+            "rotation": 1,
+            "sockets": {
+                "Xp": "5s",
+                "Xn": "1s",
+                "Yp": "7",
+                "Yn": "7f",
+                "Zp": "v2_1",
+                "Zn": "v0_3"
+            }
+        },
+        {
+            "name": "WTU_ccv_2",
+            "mesh": "Wall_Trim_Upper_ccv",
+            "rotation": 2,
+            "sockets": {
+                "Xp": "7",
+                "Xn": "7f",
+                "Yp": "1s",
+                "Yn": "5s",
+                "Zp": "v2_2",
+                "Zn": "v0_0"
+            }
+        },
+        {
+            "name": "WTU_ccv_3",
+            "mesh": "Wall_Trim_Upper_ccv",
+            "rotation": 3,
+            "sockets": {
+                "Xp": "1s",
+                "Xn": "5s",
+                "Yp": "7f",
+                "Yn": "7",
+                "Zp": "v2_3",
+                "Zn": "v0_1"
+            }
+        },
+        {
+            "name": "WTL_cvx_0",
+            "mesh": "Wall_Trim_Lower_cvx",
+            "rotation": 0,
+            "sockets": {
+                "Xp": "3f",
+                "Xn": "3",
+                "Yp": "-1",
+                "Yn": "5s",
+                "Zp": "v0_2",
+                "Zn": "-1"
+            }
+        },
+        {
+            "name": "WTL_cvx_1",
+            "mesh": "Wall_Trim_Lower_cvx",
+            "rotation": 1,
+            "sockets": {
+                "Xp": "-1",
+                "Xn": "5s",
+                "Yp": "3",
+                "Yn": "3f",
+                "Zp": "v0_3",
+                "Zn": "-1"
+            }
+        },
+        {
+            "name": "WTL_cvx_2",
+            "mesh": "Wall_Trim_Lower_cvx",
+            "rotation": 2,
+            "sockets": {
+                "Xp": "3",
+                "Xn": "3f",
+                "Yp": "5s",
+                "Yn": "-1",
+                "Zp": "v0_0",
+                "Zn": "-1"
+            }
+        },
+        {
+            "name": "WTL_cvx_3",
+            "mesh": "Wall_Trim_Lower_cvx",
+            "rotation": 3,
+            "sockets": {
+                "Xp": "5s",
+                "Xn": "-1",
+                "Yp": "3f",
+                "Yn": "3",
+                "Zp": "v0_1",
+                "Zn": "-1"
+            }
+        },
+        {
+            "name": "WCLI_ccv_0",
+            "mesh": "Wall_Corner_Lower_Inner_ccv",
+            "rotation": 0,
+            "sockets": {
+                "Xp": "1s",
+                "Xn": "6f",
+                "Yp": "1s",
+                "Yn": "6",
+                "Zp": "v3_0",
+                "Zn": "v2_0"
+            }
+        },
+        {
+            "name": "WCLI_ccv_1",
+            "mesh": "Wall_Corner_Lower_Inner_ccv",
+            "rotation": 1,
+            "sockets": {
+                "Xp": "1s",
+                "Xn": "6",
+                "Yp": "6f",
+                "Yn": "1s",
+                "Zp": "v3_1",
+                "Zn": "v2_1"
+            }
+        },
+        {
+            "name": "WCLI_ccv_2",
+            "mesh": "Wall_Corner_Lower_Inner_ccv",
+            "rotation": 2,
+            "sockets": {
+                "Xp": "6f",
+                "Xn": "1s",
+                "Yp": "6",
+                "Yn": "1s",
+                "Zp": "v3_2",
+                "Zn": "v2_2"
+            }
+        },
+        {
+            "name": "WCLI_ccv_3",
+            "mesh": "Wall_Corner_Lower_Inner_ccv",
+            "rotation": 3,
+            "sockets": {
+                "Xp": "6",
+                "Xn": "1s",
+                "Yp": "1s",
+                "Yn": "6f",
+                "Zp": "v3_3",
+                "Zn": "v2_3"
+            }
+        },
+        {
+            "name": "WCUI_ccv_0",
+            "mesh": "Wall_Corner_Upper_Inner_ccv",
+            "rotation": 0,
+            "sockets": {
+                "Xp": "1s",
+                "Xn": "7f",
+                "Yp": "1s",
+                "Yn": "7",
+                "Zp": "v2_0",
+                "Zn": "v3_0"
+            }
+        },
+        {
+            "name": "WCUI_ccv_1",
+            "mesh": "Wall_Corner_Upper_Inner_ccv",
+            "rotation": 1,
+            "sockets": {
+                "Xp": "1s",
+                "Xn": "7",
+                "Yp": "7f",
+                "Yn": "1s",
+                "Zp": "v2_1",
+                "Zn": "v3_1"
+            }
+        },
+        {
+            "name": "WCUI_ccv_2",
+            "mesh": "Wall_Corner_Upper_Inner_ccv",
+            "rotation": 2,
+            "sockets": {
+                "Xp": "7f",
+                "Xn": "1s",
+                "Yp": "7",
+                "Yn": "1s",
+                "Zp": "v2_2",
+                "Zn": "v3_2"
+            }
+        },
+        {
+            "name": "WCUI_ccv_3",
+            "mesh": "Wall_Corner_Upper_Inner_ccv",
+            "rotation": 3,
+            "sockets": {
+                "Xp": "7",
+                "Xn": "1s",
+                "Yp": "1s",
+                "Yn": "7f",
+                "Zp": "v2_3",
+                "Zn": "v3_3"
+            }
+        },
+        {
+            "name": "WCLO_ccv_0",
+            "mesh": "Wall_Corner_Lower_Outer_ccv",
+            "rotation": 0,
+            "sockets": {
+                "Xp": "3f",
+                "Xn": "5s",
+                "Yp": "3",
+                "Yn": "5s",
+                "Zp": "v3_2",
+                "Zn": "-1"
+            }
+        },
+        {
+            "name": "WCLO_ccv_1",
+            "mesh": "Wall_Corner_Lower_Outer_ccv",
+            "rotation": 1,
+            "sockets": {
+                "Xp": "3",
+                "Xn": "5s",
+                "Yp": "5s",
+                "Yn": "3f",
+                "Zp": "v3_3",
+                "Zn": "-1"
+            }
+        },
+        {
+            "name": "WCLO_ccv_2",
+            "mesh": "Wall_Corner_Lower_Outer_ccv",
+            "rotation": 2,
+            "sockets": {
+                "Xp": "5s",
+                "Xn": "3f",
+                "Yp": "5s",
+                "Yn": "3",
+                "Zp": "v3_0",
+                "Zn": "-1"
+            }
+        },
+        {
+            "name": "WCLO_ccv_3",
+            "mesh": "Wall_Corner_Lower_Outer_ccv",
+            "rotation": 3,
+            "sockets": {
+                "Xp": "5s",
+                "Xn": "3",
+                "Yp": "3f",
+                "Yn": "5s",
+                "Zp": "v3_1",
+                "Zn": "-1"
+            }
+        },
+        {
+            "name": "WCUO_ccv_0",
+            "mesh": "Wall_Corner_Upper_Outer_ccv",
+            "rotation": 0,
+            "sockets": {
+                "Xp": "2f",
+                "Xn": "4s",
+                "Yp": "2",
+                "Yn": "4s",
+                "Zp": "-1",
+                "Zn": "v3_2"
+            }
+        },
+        {
+            "name": "WCUO_ccv_1",
+            "mesh": "Wall_Corner_Upper_Outer_ccv",
+            "rotation": 1,
+            "sockets": {
+                "Xp": "2",
+                "Xn": "4s",
+                "Yp": "4s",
+                "Yn": "2f",
+                "Zp": "-1",
+                "Zn": "v3_3"
+            }
+        },
+        {
+            "name": "WCUO_ccv_2",
+            "mesh": "Wall_Corner_Upper_Outer_ccv",
+            "rotation": 2,
+            "sockets": {
+                "Xp": "4s",
+                "Xn": "2f",
+                "Yp": "4s",
+                "Yn": "2",
+                "Zp": "-1",
+                "Zn": "v3_0"
+            }
+        },
+        {
+            "name": "WCUO_ccv_3",
+            "mesh": "Wall_Corner_Upper_Outer_ccv",
+            "rotation": 3,
+            "sockets": {
+                "Xp": "4s",
+                "Xn": "2",
+                "Yp": "2f",
+                "Yn": "4s",
+                "Zp": "-1",
+                "Zn": "v3_1"
+            }
+        },
+        {
+            "name": "F_Filler_0",
+            "mesh": "Filler",
+            "rotation": 0,
+            "sockets": {
+                "Xp": "1s",
+                "Xn": "1s",
+                "Yp": "1s",
+                "Yn": "1s",
+                "Zp": "v2_0",
+                "Zn": "v2_0"
+            }
+        },
+        {
+            "name": "F_Filler_1",
+            "mesh": "Filler",
+            "rotation": 1,
+            "sockets": {
+                "Xp": "1s",
+                "Xn": "1s",
+                "Yp": "1s",
+                "Yn": "1s",
+                "Zp": "v2_1",
+                "Zn": "v2_1"
+            }
+        },
+        {
+            "name": "F_Filler_2",
+            "mesh": "Filler",
+            "rotation": 2,
+            "sockets": {
+                "Xp": "1s",
+                "Xn": "1s",
+                "Yp": "1s",
+                "Yn": "1s",
+                "Zp": "v2_2",
+                "Zn": "v2_2"
+            }
+        },
+        {
+            "name": "F_Filler_3",
+            "mesh": "Filler",
+            "rotation": 3,
+            "sockets": {
+                "Xp": "1s",
+                "Xn": "1s",
+                "Yp": "1s",
+                "Yn": "1s",
+                "Zp": "v2_3",
+                "Zn": "v2_3"
+            }
+        },
+        {
+            "name": "nullPrototype",
+            "mesh": "",
+            "rotation": 0,
+            "sockets": {
+                "Xp": "-1",
+                "Xn": "-1",
+                "Yp": "-1",
+                "Yn": "-1",
+                "Zp": "-1",
+                "Zn": "-1"
+            }
+        }
+    ]
+}
