@@ -24,3 +24,5 @@ For each mesh 4 prototypes are generated, covering all 4 possible 90 degree rota
 ## Pictures
 
 ![](https://cdnb.artstation.com/p/assets/images/images/053/045/283/large/benedikt-liebmann-screenshot-2022-08-23-220848.jpg?1661286249)
+![](https://cdnb.artstation.com/p/assets/images/images/053/045/263/large/benedikt-liebmann-screenshot-2022-08-23-220748.jpg?1661286218)
+![](https://cdnb.artstation.com/p/assets/images/images/053/045/239/large/benedikt-liebmann-screenshot-2022-08-23-220548.jpg?1661287383)
