@@ -20,3 +20,7 @@ Additionally, types of adjacent prototypes are set to distinguish between House,
 The Unity Project then contains an Editor tool to import this file and generate the necessary prototype assets from them as well as link them together.
 
 For each mesh 4 prototypes are generated, covering all 4 possible 90 degree rotations.
+
+## Pictures
+
+![](https://cdnb.artstation.com/p/assets/images/images/053/045/283/large/benedikt-liebmann-screenshot-2022-08-23-220848.jpg?1661286249)
