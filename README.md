@@ -8,9 +8,9 @@ https://www.artstation.com/artwork/d0DwYx
 - Initialization: Setting up the 3D grid in which the city will be generated
 - Generate Rivers: Snake like algorithm to generate 4 rivers flowing through the city with one sided dilation
 - Solve first Layer: Generates the Layout of the houses by collapsing tiles according to the WFC Algorithm, for the first layer only
-- Generate Houses: Figures out connected elements to establish house islands then subdivides these islands into houses based on House parameters. After house division is established, a random height is assigned to a house based on the vertical Grid size. 
-These houses are then solved using WFC indepedepently from one another
-- Place Socket Meshes: Places meshes on predefined sockets of the meshes, also tries covering up holes between houses where one house is higher than the other
+- Generate Houses: Figures out Houses via flood fill and adjacency information that has been provided by the Prototypes. These islands are then subdivides into smaller houses based on the house size parameters.
+Afterwards, random heights between 2 and the height of the 3D grid are assigned to each house. Then each individual house is being solved via Wave Function Collapse.
+- Place Socket Meshes: Places meshes on predefined sockets of the meshes. Some of these sockets are specifically placed to give the option to cover up holes, which might occur due to different house heights.
 
 ## Data Generation
 Generating prototype data for the Algorithm to function properly (adjacency information) is done via a dedicated export plugin in Blender and an importer in Unity.
@@ -19,7 +19,7 @@ Additionally, types of adjacent prototypes are set to distinguish between House,
 
 The Unity Project then contains an Editor tool to import this file and generate the necessary prototype assets from them as well as link them together.
 
-For each mesh 4 prototypes are generated, covering all 4 possible 90 degree rotations.
+For each mesh 4 prototypes are generated, covering all 4 possible 90 degree rotations. These are then assigned to the WFC Script
 
 ## Pictures
 
