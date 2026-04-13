@@ -9,6 +9,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: HouseColor_1
   m_Shader: {fileID: 4800000, guid: 77736f720812a034fbf29317fa71039d, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _NORMALMAP
   m_InvalidKeywords: []
@@ -18,19 +20,20 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
     - _PaintColorMap:
-        m_Texture: {fileID: 2800000, guid: 8add34c0b7fe6ff49b2678faa48d426b, type: 3}
+        m_Texture: {fileID: 2800000, guid: fa0db7264ad43f94991f7afaaf7aaf92, type: 3}
         m_Scale: {x: 0.25, y: 0.25}
         m_Offset: {x: 0, y: 0}
     - _PaintDataMap:
-        m_Texture: {fileID: 2800000, guid: bfcc0e085450f9e4689ead34fdc9669b, type: 3}
+        m_Texture: {fileID: 2800000, guid: 2fa86a3d4634c8c499c8913062a6754a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _PaintNormalMap:
-        m_Texture: {fileID: 2800000, guid: 19c7696d2a41df8449904723d2ebd5d6, type: 3}
+        m_Texture: {fileID: 2800000, guid: 07fffb340d303d44082b5cf100f628c3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
@@ -48,3 +51,4 @@ Material:
     - _SpecColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
     - _TopColor: {r: 0.54509807, g: 0.60784316, b: 0.69803923, a: 1}
   m_BuildTextureStacks: []
+  m_AllowLocking: 1
