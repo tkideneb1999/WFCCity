@@ -573,6 +573,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29e57e08141fe4044b6eac975c16d842, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CityBuilder.LandBuilder
+  _landPartName: 
   grid: {fileID: 2137344749}
   gameCamera: {fileID: 414816149}
   InputActions: {fileID: -944628639613478452, guid: 59300eb69a6f3a1458a5203a1ed43a11, type: 3}
@@ -667,6 +668,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CityBuilder.Grid
   _cellSize: 4
   _chunkSize: 16
+  _partNames:
+  - Air
+  - Building
+  - Water
+  - Roof
+  _prototypes: []
 --- !u!4 &2137344750
 Transform:
   m_ObjectHideFlags: 0

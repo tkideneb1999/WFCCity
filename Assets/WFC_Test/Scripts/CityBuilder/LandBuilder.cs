@@ -1,3 +1,4 @@
+using System.Runtime.CompilerServices;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -8,6 +9,10 @@ namespace CityBuilder
         
         private bool _enabled = true;
         public bool Enabled => _enabled;
+
+        [SerializeField]
+        private string _landPartName;
+        ushort _landPartId;
 
         [SerializeField]
         private Grid grid;
@@ -55,6 +60,9 @@ namespace CityBuilder
 
             _previewObject = GameObject.Instantiate(_previewPrefab);
             _previewObject.SetActive(false);
+
+            _landPartId = PartRegistry.Instance.GetPartId(_landPartName);
+
         }
 
         private void AddLand(InputAction.CallbackContext obj)
@@ -62,11 +70,7 @@ namespace CityBuilder
             if (!_selectedValidCell)
                 return;
 
-            if(grid.AddLand(_selectedCell.x, _selectedCell.y, out Vector3 pos))
-            {
-                Debug.Log($"Adding object at {_selectedCell}");
-                GameObject.Instantiate(_landTestPrefab, pos, Quaternion.identity);
-            }
+            grid.SetEditingData(_selectedCell.x, 0, _selectedCell.y, _landPartId);
         }
 
         private void RemoveLand(InputAction.CallbackContext obj)
